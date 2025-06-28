@@ -1,0 +1,26 @@
+{
+  "name": "local-chatbot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.47",
+    "@langchain/core": "^0.3.59",
+    "@langchain/ollama": "^0.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "hnswlib-node": "^3.0.0",
+    "langchain": "^0.3.29",
+    "openai": "^5.8.2",
+    "path": "^0.12.7"
+  }
+}
